@@ -2,6 +2,15 @@
 
 SustainLens - Local AI Deployment with NPU Optimization
 
+The problem: Companies publish hundreds of pages on their sustainability efforts, but key insights are buried in jargon. Investors, policymakers, and consumers struggle to tell whether companies are actually making a difference or just using fancy words.
+
+Our Solution: SustainLens - An AI-powered sustainability report scanner. SustainLens maps corporate sustainability claims to the 17 UN Sustainable Development Goals (SDGs)—so you can see exactly which goals a company is truly working toward and where there are gaps.
+
+Key Features: 
+1) Scans sustainability reports (Pdf, urls) in seconds 2) Highlights key insights tied to the 17 SDGs 3) Runs 100% on-device – no cloud, no privacy risk, instant results
+
+Example use case: SustainLens can verify corporate carbon reduction claims against SDG 13 (Climate Action), distinguishing real data from greenwashing. By analyzing reports, disclosures, and third-party data, it enhances transparency, aids decision-making, ensures compliance, and builds stakeholder trust in sustainability efforts.
+
 Overview
 
 This document outlines the steps taken to integrate a sustainability classification AI model into the SustainLens web application, focusing on optimizing performance using an NPU (Neural Processing Unit). The project involved multiple attempts at resolving dependency conflicts, configuring ONNX models, and running the AI model on local hardware for efficient inference.
